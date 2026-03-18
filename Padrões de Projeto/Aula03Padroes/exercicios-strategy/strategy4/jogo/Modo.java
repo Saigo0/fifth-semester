@@ -1,5 +1,5 @@
 package strategy4.jogo;
 
 public interface Modo {
-    void mover(Mecha mecha) throws InterruptedException;
+    void mover(int x, int y) throws InterruptedException;
 }
