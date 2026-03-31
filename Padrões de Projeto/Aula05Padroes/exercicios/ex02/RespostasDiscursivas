@@ -1,0 +1,5 @@
+Os code smells presentes são: God Class, Long Method, Large Class.
+
+Responsabilidades distintas encontradas: cálculo de frete, extração de CEP,
+cálculo de impostos, cálculo do total do pedido, realiza salvamento no banco de dados,
+envio de email com confirmação, geração de nota fiscal

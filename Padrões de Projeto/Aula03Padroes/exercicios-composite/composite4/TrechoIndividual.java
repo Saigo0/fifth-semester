@@ -1,6 +1,6 @@
 package composite4;
 
-public class TrechoIndividual implements LinhaAerea {
+public class TrechoIndividual extends LinhaAerea {
     private String nome;
     private double preco;
     private int tempo;
