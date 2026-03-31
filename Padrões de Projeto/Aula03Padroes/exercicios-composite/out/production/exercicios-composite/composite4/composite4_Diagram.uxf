@@ -24,7 +24,7 @@
       <w>200</w>
       <h>140</h>
     </coordinates>
-    <panel_attributes>Aeroporto
+    <panel_attributes>TrechoIndividual
 --
 </panel_attributes>
     <additional_attributes/>
@@ -37,7 +37,7 @@
       <w>200</w>
       <h>140</h>
     </coordinates>
-    <panel_attributes>ConjuntoAeroportos
+    <panel_attributes>TrechoEscala
 --
 </panel_attributes>
     <additional_attributes/>
@@ -47,11 +47,10 @@
     <coordinates>
       <x>640</x>
       <y>280</y>
-      <w>380</w>
+      <w>260</w>
       <h>320</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;-
-ConjuntoAeroportos
 </panel_attributes>
     <additional_attributes>180.0;300.0;240.0;300.0;240.0;10.0;10.0;10.0</additional_attributes>
   </element>
