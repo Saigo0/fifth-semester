@@ -34,6 +34,17 @@ public class ConjuntoAeroportos extends LinhaAerea {
         return precoTotal;
     }
 
+    public String getNome(){
+        StringBuilder nome = new StringBuilder();
+        for (LinhaAerea aeroporto : linhasAeroportos){
+            nome.append(aeroporto.getNome());
+            if(!(linhasAeroportos.lastIndexOf(aeroporto) == (linhasAeroportos.size() - 1))){
+                nome.append("_");
+            }
+        }
+        return nome.toString();
+    }
+
     public void imprimir() {
         for (LinhaAerea aeroporto : linhasAeroportos) {
             aeroporto.imprimir();
