@@ -4,19 +4,13 @@ public abstract class LinhaAerea {
 
     protected String nome;
     protected double preco;
-    protected double tempoVoo;
+    protected double tempo;
 
-    public String getNome(){
-        return nome;
-    }
+    public abstract String getNome();
 
-    public double getPreco(){
-        return preco;
-    }
+    public abstract double getPreco();
 
-    public double getTempoVoo(){
-        return tempoVoo;
-    }
+    public abstract double getTempo();
 
     protected abstract void imprimir();
 }

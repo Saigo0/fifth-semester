@@ -7,15 +7,15 @@ public class Trecho extends LinhaAerea {
 
     public Trecho(LinhaAerea origem, LinhaAerea destino, double preco, double tempoVoo) {
         this.preco = preco;
-        this.tempoVoo = tempoVoo;
+        this.tempo = tempoVoo;
         this.origem = origem;
         this.destino = destino;
     }
 
-    public double getTempoVoo() {
+    public double getTempo() {
         double tempo = 0;
-        tempo += origem.getTempoVoo();
-        tempo += destino.getTempoVoo();
+        tempo += origem.getTempo();
+        tempo += destino.getTempo();
         return tempo;
     }
 
@@ -31,7 +31,7 @@ public class Trecho extends LinhaAerea {
     }
 
     public void imprimir() {
-        System.out.println("\n\nTrecho " + this.getNome() + ":" + "\n\nPreço total: " + this.getPreco() + "\nTempo de voo total: " +  this.getTempoVoo());
+        System.out.println("\n\nTrecho " + this.getNome() + ":" + "\n\nPreço total: " + this.getPreco() + "\nTempo de voo total: " +  this.getTempo());
     }
 
 }
