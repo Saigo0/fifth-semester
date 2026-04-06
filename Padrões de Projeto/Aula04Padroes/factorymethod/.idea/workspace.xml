@@ -5,27 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a15cc88b-221b-4191-a993-614d41048151" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Aula03Padroes/exercicios-composite/composite4/Sistema.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Aula03Padroes/exercicios-composite/composite4/LinhaAerea.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula03Padroes/exercicios-composite/composite4/LinhaAerea.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Aula03Padroes/exercicios-composite/composite4/TrechoEscala.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula03Padroes/exercicios-composite/composite4/ConjuntoAeroportos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Aula03Padroes/exercicios-composite/composite4/TrechoIndividual.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula03Padroes/exercicios-composite/composite4/Aeroporto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Aula03Padroes/exercicios-composite/out/production/exercicios-composite/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula03Padroes/exercicios-composite/out/production/exercicios-composite/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Aula03Padroes/exercicios-composite/out/production/exercicios-composite/composite1/problema/Departamento.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula03Padroes/exercicios-composite/out/production/exercicios-composite/composite1/problema/Departamento.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Aula03Padroes/exercicios-composite/out/production/exercicios-composite/composite1/problema/Empregado.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula03Padroes/exercicios-composite/out/production/exercicios-composite/composite1/problema/Empregado.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Aula03Padroes/exercicios-composite/out/production/exercicios-composite/composite1/problema/Sistema.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula03Padroes/exercicios-composite/out/production/exercicios-composite/composite1/problema/Sistema.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Aula03Padroes/exercicios-composite/out/production/exercicios-composite/composite1/solucao/Departamento.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula03Padroes/exercicios-composite/out/production/exercicios-composite/composite1/solucao/Departamento.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Aula03Padroes/exercicios-composite/out/production/exercicios-composite/composite1/solucao/Empregado.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula03Padroes/exercicios-composite/out/production/exercicios-composite/composite1/solucao/Empregado.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Aula03Padroes/exercicios-composite/out/production/exercicios-composite/composite1/solucao/MembroEmpresa.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula03Padroes/exercicios-composite/out/production/exercicios-composite/composite1/solucao/MembroEmpresa.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Aula03Padroes/exercicios-composite/out/production/exercicios-composite/composite1/solucao/Sistema.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula03Padroes/exercicios-composite/out/production/exercicios-composite/composite1/solucao/Sistema.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Aula03Padroes/exercicios-composite/out/production/exercicios-composite/composite2/Congresso.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula03Padroes/exercicios-composite/out/production/exercicios-composite/composite2/Congresso.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Aula03Padroes/exercicios-composite/out/production/exercicios-composite/composite2/Individuo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula03Padroes/exercicios-composite/out/production/exercicios-composite/composite2/Individuo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Aula03Padroes/exercicios-composite/out/production/exercicios-composite/composite2/Orgao.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula03Padroes/exercicios-composite/out/production/exercicios-composite/composite2/Orgao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Aula03Padroes/exercicios-composite/out/production/exercicios-composite/composite2/Participante.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula03Padroes/exercicios-composite/out/production/exercicios-composite/composite2/Participante.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Aula03Padroes/exercicios-composite/out/production/exercicios-composite/composite3/ComponenteSite.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula03Padroes/exercicios-composite/out/production/exercicios-composite/composite3/ComponenteSite.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Aula03Padroes/exercicios-composite/out/production/exercicios-composite/composite3/Diagrama_Composite3.uxf" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula03Padroes/exercicios-composite/out/production/exercicios-composite/composite3/Diagrama_Composite3.uxf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Aula03Padroes/exercicios-composite/out/production/exercicios-composite/composite3/Pagina.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula03Padroes/exercicios-composite/out/production/exercicios-composite/composite3/Pagina.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Aula03Padroes/exercicios-composite/out/production/exercicios-composite/composite3/Postagem.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula03Padroes/exercicios-composite/out/production/exercicios-composite/composite3/Postagem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Aula03Padroes/exercicios-composite/out/production/exercicios-composite/composite3/Sistema.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula03Padroes/exercicios-composite/out/production/exercicios-composite/composite3/Sistema.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,23 +23,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/08744941684/Documents/GitHub/fifth-semester/Padrões de Projeto/Aula04Padroes/factorymethod",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "configurable.group.tools",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/08744941684/Documents/GitHub/fifth-semester/Padrões de Projeto/Aula04Padroes/factorymethod&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.tools&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="factorymethod" />
@@ -90,6 +70,7 @@
       <updated>1774298847869</updated>
       <workItem from="1774298849030" duration="120000" />
       <workItem from="1774988736623" duration="744000" />
+      <workItem from="1775503347917" duration="842000" />
     </task>
     <servers />
   </component>
