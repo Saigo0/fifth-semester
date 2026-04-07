@@ -2,28 +2,26 @@ package composite4;
 
 public class Aeroporto extends LinhaAerea {
 
-    public Aeroporto(String nome){
-        this.nome = nome;
+    private double tempoParada;
+    private double taxa;
+
+    public Aeroporto(String nome, double tempoParada, double taxa){
+        this.setNome(nome);
+        this.tempoParada = tempoParada;
+        this.taxa = taxa;
     }
 
-    @Override
-    public String getNome() {
-        return nome;
-    }
-
-    @Override
-    public double getPreco() {
-        return preco;
-    }
-
-    @Override
     public double getTempo() {
-        return tempo;
+        return tempoParada;
+    }
+
+    public double getPreco() {
+        return taxa;
     }
 
     public void imprimir()
     {
-        System.out.println("Nome: " + this.getNome() + "\nPreço do voo: " + this.getPreco() + "\nTempo do voo: " + getTempo());
+        System.out.println("\n\nNome do aeroporto: " + this.getNome() + "\nTaxa: " + this.getPreco() + "\nTempo de parada: " + getTempo());
     }
 
 }

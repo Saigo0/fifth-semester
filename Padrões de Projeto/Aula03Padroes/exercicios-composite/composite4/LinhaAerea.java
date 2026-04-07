@@ -2,15 +2,33 @@ package composite4;
 
 public abstract class LinhaAerea {
 
-    protected String nome;
-    protected double preco;
-    protected double tempo;
+    private String nome;
+    private double preco;
+    private double tempo;
 
-    public abstract String getNome();
+    public String getNome(){
+        return nome;
+    }
 
-    public abstract double getPreco();
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
 
-    public abstract double getTempo();
+    public double getPreco(){
+        return preco;
+    };
 
-    protected abstract void imprimir();
+    public void setPreco(double preco) {
+        this.preco = preco;
+    }
+
+    public double getTempo(){
+        return tempo;
+    };
+
+    public void setTempo(double tempo) {
+        this.tempo = tempo;
+    }
+
+    public abstract void imprimir();
 }

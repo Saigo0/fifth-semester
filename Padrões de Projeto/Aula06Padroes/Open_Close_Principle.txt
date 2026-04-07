@@ -1,0 +1,19 @@
+OCP (Open Closed Principle)
+
+Intenção: 
+
+Software deve estar aberto para extensão e fechado para modificação
+
+O code smell Rigidity (muitos if's em um método) e padrão Strategy, o qual é voltado à resolução desse code smell, estão relacionados a esse princípio do SOLID.
+
+Algumas ideias para aplicar OCP: 
+
+1. O primeiro código e sua alteração
+2. Antecipar-se
+3. Aplicar outro princípio do Gamma (Implementar para uma interface e não uma classe). Manter a implementação oculta do sistema. O sistema acessa a interface, não a classe de implementação
+4. Como aceitar qualquer tipo e quantidade de parâmetros? R: Cria um construtor e passa os parâmetros por ele. Nisso, surge a necessidade de criar um atributo que receba o parâmetro passado no construtor. Isso evita a modificação do sistema.
+
+Over-engineering:
+
+Aplicação exagerada de padrões: maior complexidade, produtividade negativa, custo cognitivo alto
+Como evitar: Uma única implementação previsível, antes do segundo caso concreto, frequência de mudança, estabilidade x turbulência
