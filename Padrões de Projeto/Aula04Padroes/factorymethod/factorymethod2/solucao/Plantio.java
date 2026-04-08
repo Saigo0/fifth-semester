@@ -14,6 +14,8 @@ public abstract class Plantio {
     public Plantio(String cultura) {
     	this.cultura = cultura;
     }
+
+
     
     public void setDataPlantio(LocalDate dataPlantio) {
         this.dataPlantio = dataPlantio;
