@@ -1,6 +1,5 @@
 package factorymethod2.solucao;
 
-import factorymethod2.problema.ServicoPlantio;
 
 import java.time.LocalDate;
 
@@ -10,14 +9,14 @@ public class Sistema {
 
         ServicoPlantio fazenda;
 
-    	fazenda = new ServicoPlantioMilho();
+        fazenda = new ServicoPlantioMilho();
+        fazenda.prepararPlantio(LocalDate.now());
 
-        fazenda.prepararPlantio("MILHO", LocalDate.now());
+        fazenda = new ServicoPlantioSoja();
+        fazenda.prepararPlantio(LocalDate.now().plusDays(7));
 
-        fazenda.prepararPlantio("SOJA", LocalDate.now().plusDays(7));
-        
-        fazenda.prepararPlantio("ORGANICO", LocalDate.now().plusDays(10));
-        
-        System.out.println(fazenda.getPlantios());
+        fazenda = new ServicoPlantioOrganico();
+        fazenda.prepararPlantio(LocalDate.now().plusDays(10));
+
     }
 }

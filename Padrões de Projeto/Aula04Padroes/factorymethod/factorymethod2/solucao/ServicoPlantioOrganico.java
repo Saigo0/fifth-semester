@@ -3,6 +3,18 @@ package factorymethod2.solucao;
 import java.time.LocalDate;
 
 public class ServicoPlantioOrganico extends ServicoPlantio{
+
+    @Override
+    public void prepararPlantio(LocalDate dataPlantio){
+        Plantio plantio = criarPlantio();
+
+        plantio.setDataPlantio(dataPlantio);
+
+        aplicarDataColheita(plantio, dataPlantio);
+
+        addPlantio(plantio);
+    }
+
     @Override
     protected void aplicarDataColheita(Plantio plantio, LocalDate dataPlantio) {
         plantio.setDataColheita(dataPlantio.plusDays(90));

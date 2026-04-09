@@ -11,19 +11,22 @@ public abstract class ServicoPlantio {
 	public List<Plantio> getPlantios() {
 		return plantios;
 	}
+
+    public void addPlantio(Plantio plantio) {
+        this.plantios.add(plantio);
+    }
 	
-    public void prepararPlantio(String tipoCultura, LocalDate dataPlantio) {
+    public void prepararPlantio(LocalDate dataPlantio) {
 
         Plantio plantio = criarPlantio();
 
         plantio.setDataPlantio(dataPlantio);
 
         aplicarPesticidas(plantio, dataPlantio);
-        
+
         aplicarDataColheita(plantio, dataPlantio);
 
-        plantios.add(plantio);
-
+        addPlantio(plantio);
     }
 
     protected abstract void aplicarDataColheita(Plantio plantio, LocalDate dataPlantio);
