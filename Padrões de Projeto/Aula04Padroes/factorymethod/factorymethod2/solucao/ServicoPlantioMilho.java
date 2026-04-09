@@ -11,7 +11,7 @@ public class ServicoPlantioMilho extends ServicoPlantio{
 
     @Override
     protected void aplicarPesticidas(Plantio plantio, LocalDate dataPlantio) {
-
+        plantio.adicionarPesticida(dataPlantio);
     }
 
     @Override

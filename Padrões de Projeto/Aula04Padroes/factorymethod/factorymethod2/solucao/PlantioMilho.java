@@ -4,4 +4,5 @@ public class PlantioMilho extends Plantio {
     public PlantioMilho() {
         super("Milho");
     }
+
 }
