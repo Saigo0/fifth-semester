@@ -19,32 +19,10 @@ public abstract class ServicoPlantio {
         plantio.setDataPlantio(dataPlantio);
 
         aplicarPesticidas(plantio, dataPlantio);
+        
         aplicarDataColheita(plantio, dataPlantio);
 
         plantios.add(plantio);
-
-        if (tipoCultura.equals("MILHO")) {
-            plantio.setDataColheita(dataPlantio.plusDays(120));
-
-            // PODEM haver mais datas de aplicacao de pesticidas
-            plantio.adicionarPesticida(dataPlantio.plusDays(30));
-            plantio.adicionarPesticida(dataPlantio.plusDays(60));
-            
-        } else if (tipoCultura.equals("SOJA")) {
-            plantio.setDataColheita(dataPlantio.plusDays(100));
-            
-            // SOMENTE pode haver uma data
-            plantio.adicionarPesticida(dataPlantio.plusDays(20));
-
-        } else if (tipoCultura.equals("ORGANICO")) {
-            plantio.setDataColheita(dataPlantio.plusDays(90));
-            
-            // NAO DEVE ter nenhum data de aplicacao de pesticidas
-
-        } else {
-            throw new IllegalArgumentException("Cultura inválida");
-        }
-
 
     }
 

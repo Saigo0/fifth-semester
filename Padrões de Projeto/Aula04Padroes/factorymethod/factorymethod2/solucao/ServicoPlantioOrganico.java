@@ -5,7 +5,7 @@ import java.time.LocalDate;
 public class ServicoPlantioOrganico extends ServicoPlantio{
     @Override
     protected void aplicarDataColheita(Plantio plantio, LocalDate dataPlantio) {
-        plantio.setDataPlantio(dataPlantio.plusDays(90));
+        plantio.setDataColheita(dataPlantio.plusDays(90));
     }
 
     @Override
