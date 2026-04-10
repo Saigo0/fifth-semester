@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.1">
+  <zoom_level>6</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>102</x>
+      <y>960</y>
+      <w>192</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes>/AbstractFreteFactory/
+--
+
+--
+/+prepararEncomendaExpresso(): Encomenda/
+/+preparaEncomendaNormal(): Encomenda/</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>834</x>
+      <y>690</y>
+      <w>180</w>
+      <h>114</h>
+    </coordinates>
+    <panel_attributes>/Encomenda/
+--
+-largura: int
+-altura: int
+-profundidade: int
+-peso: int
+-destino: Destino
+--
++getAltura(): int
++getLargura(): int
++getProfundidade(): int
++setDimensoes(larg: int, alt: int, prof: int): void
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>768</x>
+      <y>456</y>
+      <w>336</w>
+      <h>102</h>
+    </coordinates>
+    <panel_attributes>CalculadoraFreteImpl
+--
+-freteFactory: AbstractFactory
+-obss: Observador []
+-encomenda: Encomenda
+--
++calcularFrete(altura: int, largura: int, profundidade: int, peso: int, destino: Destino): void
++addObservador(observador: Observador): void
++setTipoFrete(tipoFrete: String): void
++setTipoEncomenda(tipoEncomenda: String): void
++notificarMensagemErro(mensagem: String): void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>186</x>
+      <y>486</y>
+      <w>174</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;interface&gt;&gt;
+Observador
+--
+tipoFreteSetado(): void
+msgErro(message: String): void
+tipoEncomendaSetado(): void
+notificarPrecoCalculado(preco: double): void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>0</x>
+      <y>1104</y>
+      <w>180</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes>Correio
+--
+
+--
++prepararEncomendaExpresso(): Encomenda
++prepararEncomendaNormal(): Encomenda</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>210</x>
+      <y>1104</y>
+      <w>180</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes>ExportarAmericaDoNorte
+--
+
+--
++prepararEncomendaExpresso(): Encomenda
++prepararEncomendaNormal(): Encomenda</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>768</x>
+      <y>312</y>
+      <w>336</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;interface&gt;&gt;
+CalculadoraFreteControle
+--
+calcularFrete(altura: int, largura: int, profundidade: int, peso: int, destino: Destino): void
+addObservador(observador: Observador): void
+setTipoFrete(tipoFrete: String): void
+setTipoEncomenda(tipoEncomenda String): void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>924</x>
+      <y>378</y>
+      <w>18</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;130.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>606</x>
+      <y>954</y>
+      <w>114</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>EncomendaExpresso
+--
+
+--
++getPreco(): double</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1122</x>
+      <y>954</y>
+      <w>114</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>EncomendaNormal
+--
+
+--
++getPreco(): double</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>660</x>
+      <y>798</y>
+      <w>270</w>
+      <h>168</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>430.0;10.0;10.0;260.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>930</x>
+      <y>798</y>
+      <w>264</w>
+      <h>168</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;420.0;260.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>480</x>
+      <y>1110</y>
+      <w>168</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>EncomendaExpressoCorreio</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>672</x>
+      <y>1110</y>
+      <w>162</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>EncomendaExpressoAmericaDoNorte</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1008</x>
+      <y>1110</y>
+      <w>162</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>EncomendaNormalCorreio</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1194</x>
+      <y>1110</y>
+      <w>168</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>EncomendaNormalAmericaDoNorte</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>558</x>
+      <y>990</y>
+      <w>114</w>
+      <h>132</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>170.0;10.0;10.0;200.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>666</x>
+      <y>990</y>
+      <w>102</w>
+      <h>132</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;150.0;200.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1068</x>
+      <y>990</y>
+      <w>114</w>
+      <h>132</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>170.0;10.0;10.0;200.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1188</x>
+      <y>990</y>
+      <w>102</w>
+      <h>132</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;150.0;200.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>210</x>
+      <y>1008</y>
+      <w>84</w>
+      <h>108</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;120.0;160.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>108</x>
+      <y>1008</y>
+      <w>84</w>
+      <h>108</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>120.0;10.0;10.0;160.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>54</x>
+      <y>1152</y>
+      <w>534</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+</panel_attributes>
+    <additional_attributes>870.0;90.0;870.0;130.0;10.0;130.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>108</x>
+      <y>1152</y>
+      <w>996</w>
+      <h>186</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+</panel_attributes>
+    <additional_attributes>1640.0;90.0;1640.0;280.0;10.0;290.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>264</x>
+      <y>1152</y>
+      <w>534</w>
+      <h>102</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+</panel_attributes>
+    <additional_attributes>870.0;90.0;870.0;150.0;10.0;150.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>318</x>
+      <y>1152</y>
+      <w>996</w>
+      <h>198</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+</panel_attributes>
+    <additional_attributes>1640.0;90.0;1640.0;300.0;10.0;310.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>642</x>
+      <y>510</y>
+      <w>138</w>
+      <h>456</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;740.0;210.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1098</x>
+      <y>510</y>
+      <w>114</w>
+      <h>456</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>170.0;740.0;10.0;10.0</additional_attributes>
+  </element>
+</diagram>

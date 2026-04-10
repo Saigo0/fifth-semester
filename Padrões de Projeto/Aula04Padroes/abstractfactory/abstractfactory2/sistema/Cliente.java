@@ -20,14 +20,11 @@ public class Cliente {
 		CarroPopular popular = fabrica.criarCarroPopular();
 		popular.exibirInfoPopular();
 		System.out.println();
-		
 	}
 
 	private static void criarSedan(FabricaDeCarro fabrica) {
-
 		CarroSedan sedan = fabrica.criarCarroSedan();
 		sedan.exibirInfoSedan();
 		System.out.println();
-		
 	}
 }

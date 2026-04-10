@@ -6,7 +6,7 @@ public class Fiesta implements CarroPopular {
 
 	@Override
 	public void exibirInfoPopular() {
-		System.out.println("Modelo: Fiesta\nFábrica: Ford\nCategoria:Popular");
+		System.out.println("Modelo: Fiesta\nFÃ¡brica: Ford\nCategoria:Popular");
 	}
 
 }

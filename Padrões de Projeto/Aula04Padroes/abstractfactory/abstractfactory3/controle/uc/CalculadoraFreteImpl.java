@@ -6,6 +6,8 @@ import java.util.List;
 import abstractfactory3.controle.abstractfactory.AbstractFreteFactory;
 import abstractfactory3.controle.abstractfactory.Destino;
 import abstractfactory3.controle.abstractfactory.Encomenda;
+import abstractfactory3.controle.correio.Correio;
+import abstractfactory3.controle.exportaramericadonorte.ExportarAmericaDoNorte;
 import abstractfactory3.controle.observer.Observador;
 
 public class CalculadoraFreteImpl implements CalculadoraFreteControle {
@@ -42,11 +44,9 @@ public class CalculadoraFreteImpl implements CalculadoraFreteControle {
 	public void setTipoFrete(String tipoFrete) {
 
 		if (tipoFrete.equals("Correio")) {
-			// criar o concretefactory de correio
-			// this.freteFactory = new <nome da tua classe>();
+			this.freteFactory = new Correio();
 		} else {
-			// criar o concretefactory de exportar para america do norte
-			// this.freteFactory = new <nome da tua classe>();
+            this.freteFactory = new ExportarAmericaDoNorte();
 		}
 
 		for (Observador obs : obss) {
