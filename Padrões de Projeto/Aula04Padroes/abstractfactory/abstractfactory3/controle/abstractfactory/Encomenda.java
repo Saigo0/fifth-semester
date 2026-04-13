@@ -6,6 +6,7 @@ public abstract class Encomenda {
 	private int altura;
 	private int profundidade;
 	private int peso;
+    private int volume;
 	private Destino destino;
 
 	public int getAltura() {
@@ -28,11 +29,14 @@ public abstract class Encomenda {
 	 * @param prof
 	 * @throws Exception
 	 */
+
+
 	public void setDimensoes(int larg, int alt, int prof) throws Exception {
 	
 		this.largura = larg;
 		this.altura = alt;
 		this.profundidade = prof;
+        this.volume = larg * alt * prof;
 		
 	}
 	
@@ -59,8 +63,12 @@ public abstract class Encomenda {
 	public Destino getDestino() {
 		return destino;
 	}
+
+    public int getVolume() {
+        return volume;
+    }
 	
-	public void setDestino(Destino destino) throws Exception {
+	public void setDestino(Destino destino){
 		this.destino = destino;
 	}
 	
