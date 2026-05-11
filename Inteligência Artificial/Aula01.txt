@@ -1,0 +1,7 @@
+## IA Conexionista: Área da IA que defende que ela pode ser criada reproduzindo a estrutura cerebral do ser humano
+
+## IA Simbólica: Vertente que defende a IA como manipuladora e entendedora de símbolos (um bom exemplo atual de símbolos utilizados é o código-fonte que utilizamos na programação)
+
+## Sistema especialista: Sistemas que eram desenvolvidos para uma área em específico. Por exemplo, uma IA voltada para a análise de quadros de pintura não era capaz de dar um diagnóstico médico.
+
+## Agente Inteligente: Entidade que possui um sensor capaz de perceber o ambiente no qual está inserida, capaz de raciocinar, tomar uma decisão a respeito desse raciocínio e gerar uma saída para o ambiente.
