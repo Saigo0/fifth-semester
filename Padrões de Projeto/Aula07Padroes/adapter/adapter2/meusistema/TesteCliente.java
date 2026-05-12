@@ -1,4 +1,4 @@
-package adapter2;
+package adapter2.meusistema;
 
 import adapter2.brasileiro.CorreiosValidador;
 import adapter2.cliente.Cliente;
