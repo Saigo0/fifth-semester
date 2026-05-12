@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="adapter">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/xpto.jar!/" />
+      <root url="jar://$PROJECT_DIR$/winlog.jar!/" />
+      <root url="jar://$PROJECT_DIR$/logtext.jar!/" />
+      <root url="jar://$PROJECT_DIR$/acme.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

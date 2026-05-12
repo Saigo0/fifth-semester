@@ -1,6 +1,6 @@
 package decorator2;
 
-public class Pedido {
+public class Pedido implements PedidoComponente {
 
 	private double total;
 	private String estado;
