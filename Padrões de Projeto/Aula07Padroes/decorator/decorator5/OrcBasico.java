@@ -2,7 +2,7 @@ package decorator5;
 
 import java.util.Random;
 
-public class OrcBasico {
+public class OrcBasico implements Orc{
 
 	public OrcBasico() {
 		setSaude(100);
