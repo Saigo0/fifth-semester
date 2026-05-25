@@ -1,9 +1,8 @@
 package decorator2;
 
-public abstract class PedidoDecorator {
+public abstract class PedidoDecorator implements PedidoComponente{
 
     private PedidoComponente pedidoComponente;
-    private FreteStrategy freteStrategy;
 
     PedidoDecorator(PedidoComponente pedidoComponente){
         this.pedidoComponente = pedidoComponente;

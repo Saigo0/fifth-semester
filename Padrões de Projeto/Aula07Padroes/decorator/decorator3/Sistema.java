@@ -13,8 +13,12 @@ public class Sistema {
 		Sublinhador sublinhador = new Sublinhador(maiusculas);
 		System.out.println(sublinhador);
 		
-		// Inversor: transforma o texto de tras para frente
-		// Cripto: troca cada caracter pelo seu posterior, conforme tabela ASCII. Por exemplo, a vira b, b vira c e o z vira {
+		Inversor inversor = new Inversor(sublinhador);
+        System.out.println(inversor);
+
+        Cripto cripto = new Cripto(inversor);
+        System.out.println(cripto);
+
 		
 		
 	}
