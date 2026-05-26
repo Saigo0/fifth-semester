@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ce587dd-4cb3-41f2-b258-93a3606b9405" name="Changes" comment="" />
+    <list default="true" id="2ce587dd-4cb3-41f2-b258-93a3606b9405" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../decorator/decorator5/JoiaDaVida.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../decorator/decorator5/Escudo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../decorator/decorator5/Escudo.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,8 +41,9 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/joseo/OneDrive/Documentos/GitHub/fifth-semester/Padrões de Projeto/Aula08Padroes/aulas21_22",
+    "last_opened_file_path": "C:/Users/joseo/OneDrive/Documentos/GitHub/fifth-semester/Padrões de Projeto/Aula07Padroes/adapter/adapter1",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -65,6 +70,9 @@
       <updated>1778545363893</updated>
       <workItem from="1778545364919" duration="578000" />
       <workItem from="1779142643212" duration="32000" />
+      <workItem from="1779750925344" duration="60000" />
+      <workItem from="1779750996797" duration="38000" />
+      <workItem from="1779751141865" duration="57000" />
     </task>
     <servers />
   </component>
