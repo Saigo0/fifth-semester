@@ -1,0 +1,23 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>260</x><y>170</y><w>330</w><h>130</h></coordinates><panel_attributes>ResultadoValidacao
+--
+_-valid: boolean_
+_-errors: List&lt;String&gt;_
+--
++ResultadoValidacao(valid: boolean, erors: List&lt;String&gt;)
++isValid(): boolean
++getErrors(): List&lt;String&gt;
++toString(): String</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>70</x><y>150</y><w>100</w><h>30</h></coordinates><panel_attributes>Sistema</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>60</x><y>610</y><w>330</w><h>80</h></coordinates><panel_attributes>ValidadorCliente
+--
+#validarFormato(data: List&lt;String&gt;): List&lt;String&gt;
+#validarRegrasNeogico(data: List&lt;String&gt;): List&lt;String&gt;
+-isValidCPF(cpf: String): boolean</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>460</x><y>610</y><w>330</w><h>80</h></coordinates><panel_attributes>ValidadorProdutos
+--
+#validarFormato(data: List&lt;String&gt;): List&lt;String&gt;
+#validarRegrasNeogico(data: List&lt;String&gt;): List&lt;String&gt;
+-isValidCPF(cpf: String): boolean</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>260</x><y>430</y><w>330</w><h>90</h></coordinates><panel_attributes>ValidadorDados
+--
+_+validar(lines: List&lt;String&gt;): ResultadoValidacao_
+#loadData(lines: List&lt;String&gt;): List&lt;String&gt;
+/#validarFormato(data: List&lt;String&gt;): List&lt;String&gt;/
+/#validarRegrasNegocio(data: List&lt;String&gt;): List&lt;String&gt;/</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>210</x><y>510</y><w>190</w><h>120</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>170;10;10;100</additional_attributes></element><element><id>Relation</id><coordinates><x>470</x><y>510</y><w>170</w><h>120</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;150;100</additional_attributes></element><element><id>Relation</id><coordinates><x>420</x><y>290</y><w>30</w><h>160</h></coordinates><panel_attributes>lt=&lt;.
+</panel_attributes><additional_attributes>10;10;10;140</additional_attributes></element></diagram>

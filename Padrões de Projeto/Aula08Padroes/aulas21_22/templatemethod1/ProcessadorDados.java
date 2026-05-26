@@ -35,7 +35,6 @@ public abstract class ProcessadorDados {
         }
         System.out.println("================");
     }
-
     
     protected abstract List<String> lerDados();
 

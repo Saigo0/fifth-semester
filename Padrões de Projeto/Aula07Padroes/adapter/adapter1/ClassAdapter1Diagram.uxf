@@ -1,0 +1,32 @@
+<diagram program="umletino" version="15.1"><zoom_level>7</zoom_level><element><id>UMLClass</id><coordinates><x>105</x><y>273</y><w>98</w><h>21</h></coordinates><panel_attributes>SistemaVendas</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>28</x><y>427</y><w>301</w><h>35</h></coordinates><panel_attributes>AmericanExpressDeClasse
+--
++pagar(nome: String, numero: String, valor: double, validade: String): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>350</x><y>427</y><w>301</w><h>35</h></coordinates><panel_attributes>MasterCardDeClasse
+--
++pagar(nome: String, numero: String, valor: double, validade: String): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>672</x><y>427</y><w>301</w><h>35</h></coordinates><panel_attributes>VisaDeClasse
+--
++pagar(nome: String, numero: String, valor: double, validade: String): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>357</x><y>266</y><w>301</w><h>42</h></coordinates><panel_attributes>&lt;&lt;interface&gt;&gt;
+Cartao
+--
++pagar(nome: String, numero: String, valor: double, validade: String): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>154</x><y>301</y><w>315</w><h>140</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>430;10;10;180</additional_attributes></element><element><id>Relation</id><coordinates><x>546</x><y>301</y><w>294</w><h>140</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;400;180</additional_attributes></element><element><id>Relation</id><coordinates><x>497</x><y>301</y><w>21</w><h>140</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;10;180</additional_attributes></element><element><id>UMLClass</id><coordinates><x>343</x><y>595</y><w>322</w><h>35</h></coordinates><panel_attributes>MasterCard
+--
++aprovar(nome: String, numero: String, valor: double, validade: String): boolean</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>84</x><y>595</y><w>203</w><h>196</h></coordinates><panel_attributes>AmericanExpress
+--
+-nome: String
+-numero: String
+-valor: double
+-anoVencimento: int
+-mesVencimento: int
+--
++getNome(): String
++setNome(nome: String): void
++getNumero(): double
++setNumero(numero: String): void
++getValor(): double
++setValor(valor: double): void
++getAnoVencimento(): int
++setAnoVencimento(anoVencimento: int): void
++getMesVencimento(): int
++setMesVencimento(mesVencimento: int): void
++pagar(): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>175</x><y>455</y><w>21</w><h>154</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;200;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>504</x><y>455</y><w>21</w><h>154</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;200;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>686</x><y>595</y><w>399</w><h>35</h></coordinates><panel_attributes>Visa
+--
++verificar(nome: String, numero: String, valor: double, validadeMes: int, validadeAno: int): boolean</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>847</x><y>455</y><w>21</w><h>154</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;200;10;10</additional_attributes></element></diagram>

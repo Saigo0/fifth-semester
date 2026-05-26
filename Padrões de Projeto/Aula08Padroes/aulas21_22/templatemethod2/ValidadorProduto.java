@@ -30,18 +30,19 @@ public class ValidadorProduto extends ValidadorDados{
             if (parts.length < 4) continue;
 
             String codigo = parts[0];
+
             try{
-                double preco = Double.parseDouble(parts[1]);
+                double preco = Double.parseDouble(parts[2]);
                 if (preco <= 0.0) {
                     errors.add("Linha " + (i+1) + ": preço menor ou igual a zero. Preço: " + preco);
                 }
             } catch (NumberFormatException e) {
-                errors.add("Erro ao converter valor: " + parts[1]);
+                errors.add("Erro ao converter valor: " + parts[2]);
             }
 
+            int estoque = Integer.parseInt(parts[3]);
 
-            int estoque = Integer.parseInt(parts[2]);
-            String nome = parts[3];
+            String nome = parts[1];
 
             if (codigo == null || codigo.trim().isEmpty()) {
                 errors.add("Linha " + (i+1) + ": código não pode ser vazio. Código: " + codigo);
@@ -50,10 +51,14 @@ public class ValidadorProduto extends ValidadorDados{
             if (estoque < 0) {
                 errors.add("Linha " + (i+1) + ": Estoque inválido, pois é menor que 0. Estoque: " + estoque);
             }
+
             if (nome.length() < 3) {
                 errors.add("Linha " + (i+1) + ": Nome inválido, pois possui menos do que 3 caracteres. " +nome);
             }
+            
         }
+
         return errors;
     }
+
 }
