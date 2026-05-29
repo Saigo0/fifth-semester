@@ -1,0 +1,63 @@
+<diagram program="umletino" version="15.1"><zoom_level>7</zoom_level><element><id>UMLClass</id><coordinates><x>35</x><y>0</y><w>84</w><h>21</h></coordinates><panel_attributes>Sistema</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>210</x><y>0</y><w>371</w><h>119</h></coordinates><panel_attributes>Autorizacao
+--
+_-autorizada: boolean_
+_-justificativa: String_
+_-valorPagoPrestador: double_
+--
++Autorizacao(autorizada: boolean, justificativa: String, valorPagoPrestador: double)
++isAutorizada(): boolean
++getJustificativa(): String
++getValorPagoPrestador(): double
++toString(): String</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>210</x><y>196</y><w>371</w><h>91</h></coordinates><panel_attributes>/AutorizarServico/
+--
+_+autorizar(solicitacao: SolicitacaoServico): Autorizacao_
+#verificarMensalidades(solicitacao: SolicitacaoServico, log: List&lt;String&gt;): boolean
+/#verificarCobertura(solicitacao: SolicitacaoServico, log: List&lt;String&gt;): boolean/
+/#verificarCarencia(solicitacao: SolicitacaoServico, log: List&lt;String&gt;): boolean/
+/#verificarLimiteAnual(solicitacao: SolicitacaoServico, log: List&lt;String&gt; ): boolean/
+/#calcularValorPrestador(solicitacao: SolicitacaoServico, log: List&lt;String&gt;): double/</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>0</x><y>399</y><w>371</w><h>70</h></coordinates><panel_attributes>AutorizadorCirurgia
+--
+#verificarCobertura(solicitacao: SolicitacaoServico, log: List&lt;String&gt;): boolean
+#verificarCarencia(solicitacao: SolicitacaoServico, log: List&lt;String&gt;): boolean
+#verificarLimiteAnual(solicitacao: SolicitacaoServico, log: List&lt;String&gt; ): boolean
+#calcularValorPrestador(solicitacao: SolicitacaoServico, log: List&lt;String&gt;): double</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>427</x><y>399</y><w>371</w><h>70</h></coordinates><panel_attributes>AutorizadorConsulta
+--
+#verificarCobertura(solicitacao: SolicitacaoServico, log: List&lt;String&gt;): boolean
+#verificarCarencia(solicitacao: SolicitacaoServico, log: List&lt;String&gt;): boolean
+#verificarLimiteAnual(solicitacao: SolicitacaoServico, log: List&lt;String&gt; ): boolean
+#calcularValorPrestador(solicitacao: SolicitacaoServico, log: List&lt;String&gt;): double</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>175</x><y>280</y><w>196</w><h>133</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>260;10;10;170</additional_attributes></element><element><id>Relation</id><coordinates><x>420</x><y>280</y><w>196</w><h>133</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;260;170</additional_attributes></element><element><id>UMLClass</id><coordinates><x>434</x><y>938</y><w>329</w><h>175</h></coordinates><panel_attributes>Paciente
+--
+_-nome: String_
+_-plano: String_
+_-dataAssociacao: LocalDate_
+_-mensalidadeEmDia: boolean_
+_-usosPorAnoServico: Map&lt;String, Integer&gt;_
+--
++Paciente(nome: String, plano: String, 
+dataAssociacao: LocalDate,
+mensalidadeEmDia: boolean, usosPorAnoServico: Map&lt;String, Integer&gt;)
++getNome(): String
++getPlano(): String
++getDataAssociacao(): LocalDate
++isMensalidadeEmDia(): boolean
++getUsosAno(servico: String)</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>91</x><y>938</y><w>217</w><h>84</h></coordinates><panel_attributes>Prestador
+--
+_-nome: String_
+_-especialidade: String_
+--
++Prestador(nome: String, especialidade: String)
++getNome(): String
++getEspecialidade(): String</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>294</x><y>574</y><w>196</w><h>154</h></coordinates><panel_attributes>SolicitacaoServico
+--
+_-paciente: Paciente_
+_-prestador: Prestador_
+_-servico: String_
+_-dataSolicitacao: LocalDate_
+--
++SolicitacaoServico(paciente: Paciente,
+prestador: Prestador, servico: String,
+dataSolicitacao: LocalDate)
++getPaciente(): Paciente
++getPrestador(): Prestador
++getServico(): Servico
++getDataSolicitacao(): LocalDate</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>483</x><y>644</y><w>133</w><h>308</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>170;420;170;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>189</x><y>644</y><w>119</w><h>308</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;420;10;10;150;10</additional_attributes></element></diagram>

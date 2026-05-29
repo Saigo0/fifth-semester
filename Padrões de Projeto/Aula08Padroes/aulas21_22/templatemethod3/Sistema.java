@@ -30,9 +30,9 @@ public class Sistema {
         SolicitacaoServico s3 = new SolicitacaoServico(maria, cirurgiao, "CIRURGIA", LocalDate.now());
         SolicitacaoServico s4 = new SolicitacaoServico(ana, cardiologista, "CONSULTA", LocalDate.now());
 
-        /*
+
         System.out.println("--- Teste Autoriza\u00e7\u00e3o Consulta ---");
-        AutorizarServico autorizadorConsulta = new AutorizadorConsulta(); 
+        AutorizarServico autorizadorConsulta = new AutorizadorConsulta();
         System.out.println("Joao com cardiologista: " + autorizadorConsulta.autorizar(s1));
         System.out.println("Joao com fisioterapeuta: " + autorizadorConsulta.autorizar(s2));
         System.out.println("Ana (mensalidade atrasada): " + autorizadorConsulta.autorizar(s4));
@@ -40,7 +40,7 @@ public class Sistema {
         System.out.println("\n--- Teste Autoriza\u00e7\u00e3o Cirurgia ---");
         AutorizarServico autorizadorCirurgia = new AutorizadorCirurgia(); 
         System.out.println("Maria com cirurgiao: " + autorizadorCirurgia.autorizar(s3));
-        */
+
         
         /*
          SAIDA ESPERADA: 
