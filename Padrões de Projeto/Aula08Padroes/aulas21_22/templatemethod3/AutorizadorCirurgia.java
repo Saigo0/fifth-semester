@@ -5,7 +5,7 @@ import java.util.List;
 public class AutorizadorCirurgia extends AutorizarServico{
     @Override
     protected boolean verificarCobertura(SolicitacaoServico solicitacao, List<String> log) {
-        if(solicitacao.getServico().equals("CIRURGIA") && (solicitacao.getPrestador().getEspecialidade().equals("CIRURGIA GERAL") || solicitacao.getPrestador().getEspecialidade().equals("CARDIOLOGIA"))){
+        if((solicitacao.getPrestador().getEspecialidade().equals("CIRURGIA GERAL") || solicitacao.getPrestador().getEspecialidade().equals("CARDIOLOGIA"))){
             log.add("Cobertura ok");
            return true;
         } else {
