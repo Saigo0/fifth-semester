@@ -5,8 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ce587dd-4cb3-41f2-b258-93a3606b9405" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/adapter.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Aula07Padroes.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adapter.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/adapter.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/adapter.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/adapter1/adapterdeobjeto/AmericanExpressDeObjeto.java" beforeDir="false" afterPath="$PROJECT_DIR$/adapter1/adapterdeobjeto/AmericanExpressDeObjeto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Aula08Padroes/aulas21_22/templatemethod1/DiagramaTemplateMethod1.uxf" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula08Padroes/aulas21_22/templatemethod1/DiagramaTemplateMethod1.uxf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +35,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/Saigo0/fifth-semester.git&quot;,
-    &quot;accountId&quot;: &quot;0da47f24-cfe2-4aa0-9f4d-eb3203ac6a63&quot;
+    &quot;accountId&quot;: &quot;65d91634-34ea-406a-a83c-d43a15174100&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -39,25 +49,27 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/08744941684/Documents/GitHub/fifth-semester/Padrões de Projeto/Aula07Padroes/adapter",
+    "last_opened_file_path": "C:/laragon/www/fifth-semester/Padrões de Projeto/Aula08Padroes/aulas21_22",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "project.propVCSSupport.Mappings",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.25557.131" />
-        <option value="bundled-js-predefined-d6986cc7102b-b598e85cdad2-JavaScript-IU-252.25557.131" />
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
       </set>
     </attachedChunks>
   </component>
@@ -74,17 +86,14 @@
       <workItem from="1779750925344" duration="60000" />
       <workItem from="1779750996797" duration="38000" />
       <workItem from="1779751141865" duration="57000" />
-      <workItem from="1779801963276" duration="1422000" />
-      <workItem from="1779804746670" duration="274000" />
-      <workItem from="1779811267699" duration="120000" />
+      <workItem from="1779758053993" duration="605000" />
+      <workItem from="1779996787630" duration="108000" />
+      <workItem from="1779998011520" duration="1043000" />
+      <workItem from="1780058754596" duration="821000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
-    <select />
   </component>
 </project>
