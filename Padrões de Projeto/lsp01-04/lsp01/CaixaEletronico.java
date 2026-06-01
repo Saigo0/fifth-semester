@@ -11,7 +11,8 @@ public class CaixaEletronico {
 		ci1.depositar(5000);
 	
 		transferirComTaxa(ci1, cc1, 5000);
-		
+
+		transferirSemTaxa(cc1, ci1, 5000);
 	}
 
 	private static void transferirComTaxa(SaqueComTaxa ci1, Deposito d, double valor) {
@@ -24,6 +25,5 @@ public class CaixaEletronico {
 		d.depositar(valor);
 	}
 
-	
-	
+
 }
